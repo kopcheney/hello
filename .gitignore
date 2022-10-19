@@ -123,7 +123,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+../venv/
 ENV/
 env.bak/
 venv.bak/
@@ -174,17 +174,17 @@ cython_debug/
 .идея/**/contentModel.xml
 
 # Конфиденциальные или файлы с большим оттоком
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+../.idea/**/dataSources/
+../.idea/**/dataSources.ids
+../.idea/**/dataSources.local.xml
+../.idea/**/sqlDataSources.xml
+../.idea/**/dynamic.xml
+../.idea/**/uiDesigner.xml
+../.idea/**/dbnavigator.xml
 
 # Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
+../.idea/**/gradle.xml
+../.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -218,7 +218,7 @@ cython_debug/
 atlassian-ide-plugin.xml
 
 # Плагин Cursive Clojure
-.idea/replstate.xml
+../.idea/replstate.xml
 
 # Плагин SonarLint
 .идея/sonarlint/
@@ -233,4 +233,4 @@ crashlytics-build.свойства
 .идея/HttpRequests
 
 # Android studio 3.1+ сериализованный файл кэша
-.idea/кэширование/
+../.idea/кэширование/
