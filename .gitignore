@@ -1,0 +1,236 @@
+# Скомпилированные в байтах / оптимизированные / DLL файлы
+__pycache__/
+.py*[треска]
+*$py.class
+
+# Расширения C
+*.so
+
+# Дистрибутив / упаковка
+.Python
+сборка/
+разработка-яйца/
+дист/
+Загрузки/
+яйца/
+.яйца/
+библиотека/
+lib64/
+части/
+sdist/
+var/
+колеса/
+поделиться/python-колеса/
+.egg-информация */
+.installed.cfg
+*.egg
+МАНИФЕСТ
+
+# PyInstaller
+# Обычно эти файлы записываются скриптом python из шаблона
+# перед тем, как PyInstaller соберет exe-файл, чтобы ввести в него дату / другую информацию.
+*.манифест
+*.spec
+
+# Журналы установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Отчеты о модульном тестировании / покрытии
+htmlcov/
+.tox/
+.nox/
+.охват
+.охват. *
+.кэш
+nosetests.xml
+coverage.xml
+*.обложка
+*.py, обложка
+.гипотеза/
+.pytest_cache/
+обложка/
+
+# Переводы
+*.mo
+*.pot
+
+# Django вещи:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-журнал
+
+# Колба материал:
+экземпляр/
+.webassets-кэш
+
+# Ненужные вещи:
+.scrapy
+
+# Документация Sphinx
+документы/_build/
+
+# PyBuilder
+.pybuilder/
+цель/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# Для библиотеки или пакета вы можете игнорировать эти файлы, поскольку код
+# предназначен для запуска в нескольких средах; в противном случае проверьте их в:
+# .python-версия
+
+# pipenv
+# Согласно pypa /pipenv#598, рекомендуется включать Pipfile .заблокируйте систему управления версиями.
+# Однако, в случае совместной работы, если у вас есть зависимости от платформы или зависимости
+# не имея кроссплатформенной поддержки, pipenv может устанавливать зависимости, которые не работают или нет
+# установите все необходимые зависимости.
+#Pipfile.lock
+
+# поэзия
+# Похоже на Pipfile.замок, обычно рекомендуется включать стихи.заблокируйте систему управления версиями.
+# Это особенно рекомендуется для двоичных пакетов для обеспечения воспроизводимости и более
+# обычно игнорируется для библиотек.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+# Похоже на Pipfile.блокировка, обычно рекомендуется включать pdm.lock в систему управления версиями.
+#pdm.lock
+# pdm хранит конфигурации всего проекта в .pdm.toml, но рекомендуется не включать его
+# в системе управления версиями.
+# https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; используется, например github.com/David-OConnor/pyflow и github.com/pdm-project/pdm
+__pypackages__/
+
+# Сельдерей
+celerybeat-расписание
+celerybeat.pid
+
+# SageMath проанализировал файлы
+*.sage.py
+
+# Среды
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки проекта Rope
+.ropeproject
+
+# документация mkdocs
+/сайт
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Проверка типов Pyre
+.pyre/
+
+# статический анализатор типов pytype
+.pytype/
+
+# Символы отладки Cython
+cython_debug/
+
+# PyCharm
+Конкретный шаблон # JetBrains поддерживается в отдельном файле JetBrains.gitignore, который может
+# можно найти по адресу https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# и могут быть добавлены в глобальный gitignore или объединены в этот файл. Для более ядерного
+# опция (не рекомендуется) вы можете раскомментировать следующее, чтобы игнорировать всю папку idea.
+# Охватывает IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm и Rider
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательский материал
+.идея/**/workspace.xml
+.идея/**/tasks.xml
+.идея/**/usage.statistics.xml
+.идея/**/словари
+.идея/**/полка
+
+# Специфичный для пользователя AWS
+.идея/**/aws.xml
+
+# Сгенерированные файлы
+.идея/**/contentModel.xml
+
+# Конфиденциальные или файлы с большим оттоком
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/модули
+# *.iml
+# *.ipr
+
+# CMake
+*cmake-сборка-/
+
+ Плагин # Mongo Explorer
+.идея/**/mongoSettings.xml
+
+# Формат проекта на основе файлов
+*.iws
+
+# IntelliJ
+выход/
+
+# mpeltonen/sbt-плагин idea
+.idea_модули/
+
+# Плагин JIRA
+atlassian-ide-plugin.xml
+
+# Плагин Cursive Clojure
+.idea/replstate.xml
+
+# Плагин SonarLint
+.идея/sonarlint/
+
+Плагин # Crashlytics (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.свойства
+crashlytics-build.свойства
+ткань.свойства
+
+# Клиент Rest на основе редактора
+.идея/HttpRequests
+
+# Android studio 3.1+ сериализованный файл кэша
+.idea/кэширование/
